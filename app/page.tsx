@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import CreatePost from "./components/AddPost";
 
 export default function Home() {
-  return <main>Hey</main>;
+  return (
+    <main>
+      <CreatePost />
+    </main>
+  );
 }
