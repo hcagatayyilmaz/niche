@@ -17,7 +17,7 @@ export default async function Navbar() {
   return (
     <nav className="flex justify-between items-center py-8">
       <Link href={"/"}>
-        <h1>LOGO</h1>
+        <h1>NICHE</h1>
       </Link>
       <ul>
         {!session?.user ? (
